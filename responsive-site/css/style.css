@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #ffffff; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.abel, section h2, #skills h3 {
+  font-family: 'Abel', sans-serif; }
+
+.uppercase, section h2, #skills h3 {
+  text-transform: uppercase; }
+
+header .profile {
+  width: 100%;
+  margin: 0 auto;
+  clear: both; }
+header .profile-icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 150px; }
+header p {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 10px 20px; }
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 60px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem; }
+
+#skills .container {
+  justify-content: space-between;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+#skills .skill-box {
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 10px 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #14c0c9;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+#skills h3 {
+  color: #14c0c9;
+  margin-bottom: 10px;
+  font-size: 2.4rem;
+  font-weight: bold; }
+
+#form {
+  padding: 1.5em 0;
+  background-color: #bea300; }
+  #form .guide {
+    text-align: center; }
+  #form input {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border: solid 2px #14c0c9;
+    color: #14c0c9;
+    padding: 0.5em 4em; }
+
+/* Footer
+------------------------------------------------------------*/
+footer {
+  padding: 10px 0;
+  text-align: center; }
+
+@media (min-width: 768px) {
+  header .profile-icon {
+    height: 500px; }
+
+  #skills .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between; }
+  #skills .skill-box {
+    margin: 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
