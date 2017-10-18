@@ -58,6 +58,7 @@ header {
     margin: 0 auto;
     clear: both;
     background-image: url("../images/cat.jpg");
+    background-size: cover;
   }
   p {
     font-size: 1.6rem;
@@ -134,7 +135,7 @@ footer {
 
 @media (min-width: 769px) {
   header {
-    .profile-icon {
+    .profile {
       height:500px;
     }
   }

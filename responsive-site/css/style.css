@@ -48,7 +48,8 @@ header .profile {
   height: 250px;
   margin: 0 auto;
   clear: both;
-  background-image: url("../images/cat.jpg"); }
+  background-image: url("../images/cat.jpg");
+  background-size: cover; }
 header p {
   font-size: 1.6rem;
   text-align: center;
@@ -108,7 +109,7 @@ footer {
   text-align: center; }
 
 @media (min-width: 769px) {
-  header .profile-icon {
+  header .profile {
     height: 500px; }
 
   #skills .container {
