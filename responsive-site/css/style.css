@@ -45,12 +45,10 @@ a {
 
 header .profile {
   width: 100%;
+  height: 250px;
   margin: 0 auto;
-  clear: both; }
-header .profile-icon {
-  margin: 0 auto;
-  width: 100%;
-  height: 150px; }
+  clear: both;
+  background-image: url("../images/cat.jpg"); }
 header p {
   font-size: 1.6rem;
   text-align: center;
@@ -109,7 +107,7 @@ footer {
   padding: 10px 0;
   text-align: center; }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   header .profile-icon {
     height: 500px; }
 
